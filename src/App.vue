@@ -225,7 +225,7 @@
                 <h4>
                   <span>
                     <i class="fas fa-star circle circle--small"></i>
-                    Whafood Project
+                    Freak Project
                   </span>
                 </h4>
                 <ul class="title title-margin">
@@ -361,7 +361,7 @@ export default {
       var pos = 0;
       var id = setInterval(frame, 0.5);
       function frame() {
-        if (pos == 140) {
+        if (pos == 40) {
           clearInterval(id);
         } else {
           pos++; 
