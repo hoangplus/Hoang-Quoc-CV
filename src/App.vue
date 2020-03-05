@@ -361,7 +361,7 @@ export default {
       var pos = 0;
       var id = setInterval(frame, 0.5);
       function frame() {
-        if (pos == 40) {
+        if (pos == 140) {
           clearInterval(id);
         } else {
           pos++; 
@@ -467,6 +467,7 @@ export default {
   img {
     vertical-align: middle;
     max-width: 100%;
+    top: 55px !important;
   }
   .module__content ul{
     margin-top: 15px;
